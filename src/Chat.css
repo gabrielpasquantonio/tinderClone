@@ -1,0 +1,30 @@
+.chat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 70px;
+    border-bottom: 1px solid #fafafa;
+}
+a{
+   text-decoration: none; /* no underline, to fix it */
+   color: inherit; /* to fix color blue error */
+}
+.chat__details{
+    flex: 1;
+     /* each of the 3 childrens in the row the chat details is going to push as much room as it can, it gives high priority of chat detail div with 3 divs. Means that before aplying flex1, the space betwen the childrens inside the ocntair are even, when you do flex 1 this children takes as much as room as it can from the container */
+}
+.chat__details > p{
+    /*it has to be a direct child when using > before p */
+    color: gray;
+
+}
+
+.chat__timestamp{
+    color: lightgray;
+}
+
+.chat__image{
+margin-right: 20px;
+
+}
