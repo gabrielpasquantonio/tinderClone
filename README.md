@@ -2,7 +2,7 @@
 
 
 # Tinder Clone
-<a href="https://tinder-clone-560a3.web.app/">Live Demo</a> 
+<a href="https://tinder-clone-560a3.web.app/">Live Demo - Phone only</a> 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
